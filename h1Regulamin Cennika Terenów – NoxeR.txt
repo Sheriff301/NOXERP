@@ -1,0 +1,24 @@
+<h1>Regulamin Cennika Terenów – NoxeRP</h1>
+
+<h2>§1 Postanowienia ogólne</h2>
+<ol>
+    <li>Niniejszy regulamin określa zasady zakupu, posiadania oraz użytkowania terenów dostępnych w cenniku NoxeRP.</li>
+    <li>Zakup terenu oznacza akceptację niniejszego regulaminu.</li>
+    <li>Administracja serwera NoxeRP zastrzega sobie prawo do interpretacji regulaminu w sytuacjach spornych.</li>
+</ol>
+
+<h2>§2 Zakup terenu</h2>
+<ol>
+    <li>Tereny dostępne do zakupu są wyszczególnione w oficjalnym cenniku terenów.</li>
+    <li>Zakup terenu odbywa się wyłącznie zgodnie z zasadami określonymi przez administrację serwera.</li>
+    <li>Cena terenu jest jednorazowa, o ile administracja nie postanowi inaczej.</li>
+</ol>
+
+<h2>§3 Prawo własności</h2>
+<ol>
+    <li>Po dokonaniu zakupu teren staje się <strong>własnością gracza</strong>.</li>
+    <li><strong>Nikt, w tym inni gracze ani osoby trzecie, nie mają prawa odebrać terenu właścicielowi</strong> bez uzasadnionej przyczyny regulaminowej.</li>
+    <li>Administracja może odebrać teren wyłącznie w przypadku:
+        <ul>
+            <li>rażącego naruszenia regulaminu serwera,</li>
+            <li>długotrwałej nieaktywn
