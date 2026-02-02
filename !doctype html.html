@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Cennik Tereny</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        margin: 0;
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0,0,0,.1);
+    }
+
+    th {
+        background: #2f5f4f;
+        color: white;
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    td {
+        padding: 8px 10px;
+        font-size: 13px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    tr:hover {
+        background: #f1f7f5;
+    }
+
+    .status {
+        display: inline-flex;
+        align-items: center;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .wolne {
+        background: #dff3e6;
+        color: #1c7c3a;
+    }
+
+    .zajete {
+        background: #e7f0d6;
+        color: #8a1c1c;
+    }
+
+    .icon {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .empty {
+        color: #999;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nieruchomość</th>
+            <th>Właściciel</th>
+            <th>Wolne / Zajęte</th>
+            <th>Cena</th>
+            <th>Nazwa Firmy</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>Budynek DMV</td>
+            <td>Urząd Miasta</td>
+            <td><span class="status zajete"><span class="icon">❌</span>Zajęte</span></td>
+            <td class="price">250k$</td>
+            <td>Urząd Miasta</td>
+        </tr>
+
+        <tr>
+            <td>Salon Samochodowy</td>
+            <td></td>
+            <td><span class="status wolne"><span class="icon">✔</span>Wolne</span></td>
+            <td class="price">250k$</td>
+            <td class="empty">—</td>
+        </tr>
+
+        <tr>
+            <td>GadgetShack</td>
+            <td>lolekzzzz</td>
+            <td><span class="status zajete"><span class="icon">❌</span>Zajęte</span></td>
+            <td class="price">50k$</td>
+            <td class="empty">Brak</td>
+        </tr>
+
+        <tr>
+            <td>Stacja River</td>
+            <td></td>
+            <td><span class="status wolne"><span class="icon">✔</span>Wolne</span></td>
+            <td class="price">125k$</td>
+            <td class="empty">—</td>
+        </tr>
+
+        <tr>
+            <td>Bank</td>
+            <td>Wisienkay3000</td>
+            <td><span class="status zajete"><span class="icon">❌</span>Zajęte</span></td>
+            <td class="price">250k$</td>
+            <td>Aureon Bank</td>
+        </tr>
+
+    </tbody>
+</table>
+
+</body>
+</html>
